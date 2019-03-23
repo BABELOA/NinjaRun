@@ -13,6 +13,11 @@ import android.view.View;
  */
 public class TopView extends View {
     private Bitmap background;
+    private Bitmap StartBtn;
+    private Bitmap ContnBtn;
+
+
+
 
 
 
@@ -26,6 +31,9 @@ public class TopView extends View {
         Resources res = this.getContext().getResources();
         //背景を設定
         this.background = BitmapFactory.decodeResource(res,R.drawable.ヨシヒコ);
-
+        //スタートボタン
+        StartBtn =  BitmapFactory.decodeResource(res,R.drawable.ヨシヒコ);
+        //コンテニューボタン
+        ContnBtn = BitmapFactory.decodeResource(res,R.drawable.ヨシヒコ);
     }
 }
